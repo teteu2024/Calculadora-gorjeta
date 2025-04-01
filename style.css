@@ -120,4 +120,47 @@ strong{
      }
  }
 
+ .results{
+    background: var(--sherpa-Azul);
+    border-radius: 1.5rem;
+    padding: 2.4rem;
+
+    .amount,
+    .total{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2rem;
+
+        p{
+            color: var(--white);
+            font-weight: 700;
+
+            span{
+                color:var(--regent-Grey);
+                font-size: 1.3rem;
+            }
+        }
+
+        strong{
+            color: var(--topaz);
+            font-size: 3.2rem;
+        }
+
+    }
+
+    button{
+        margin-top: 1.6rem;
+        width: 100%;
+        background: var(--topaz);
+        border: none;
+        border-radius: .5rem;
+        padding-block: .9rem;
+        font-size: 2rem;
+        color: var(--sherpa-Azul);
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+ }
+
 
