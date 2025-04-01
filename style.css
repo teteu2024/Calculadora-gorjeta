@@ -8,15 +8,47 @@
 }
 
 :root {
-    --bg-body: #C5E4E7;
-    --BG-main: #fff;
-    
+    font-size: 62.5%;
+    --Jagged-Ice: #C5E4E7;
+    --white: #fff;
+    --sherpa-Azul: #004950;
+    --greyish-Turquoise: #5E7D7E;
+    --topaz: #26C2AE;
+    --regent-Grey: #7F9D9F;
+    --squeeze: #F3F9FA;
 }
 
 body {
-    background: var(--bg-body);
+    font-size: 1.6rem;
+    background: var(--Jagged-Ice);
+}
+
+header {
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+
+    display: flex;
+    justify-content: center;
+
 }
 
 main{
-    background: var(--BG-main);
+    background: var(--white);
+    padding: 3.2rem 2.4rem;
+    
+    border-radius: 2.5rem 2.5rem 0 0;
 }
+
+.info{
+padding-inline: 0.8rem;
+
+strong{
+     color: var(--greyish-Turquoise)
+   }
+
+   .input-box{
+    margin-top: .6rem;
+    background: var(--squeeze);
+   }
+}
+
