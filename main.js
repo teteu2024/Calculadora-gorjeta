@@ -59,3 +59,20 @@ function calculateResults(){
         totalStrong.innerText = `$${total.toFixed(2)}`
     }
 }
+
+function reset(){
+    document.querySelector("bill").value = ""
+    bill = 0
+
+    document.querySelector("people").value = ""
+    numberOfPeople = 0
+
+    document.querySelector("#custom-tip").value = ""
+    removeButtonSelected()
+    document.querySelector("#custom-tip").value = ""
+    tipPercentage = 0
+    document.querySelector(".amount strong").innerText = '$0.00'
+    document.querySelector(".total strong").innerText = 
+'$0.00'
+}
+  
